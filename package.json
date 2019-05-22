@@ -1,27 +1,32 @@
 {
-    "name": "app-dojo",
-    "version": "1.0.0",
-    "description": "Dojo Sample Mocha Test Server",
-    "scripts": {
-      "start": "node app.js",
-      "mocha": "mocha --reporter spec test.js",
-      "test": "mocha test.js --reporter mocha-junit-reporter --reporter-options mochaFile=test-reports.xml --exit"
-    },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/gdimas-cit/dojoscm-1.git"
-    },
-    "author": "Guilherme Dimas da Rosa",
-    "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/gdimas-cit/dojoscm-1/issues"
-    },
-    "homepage": "https://github.com/gdimas-cit/dojoscm-1",
-    "dependencies": {
-      "express": "^4.13.3",
-      "mocha": "^4.0.1",
-      "mocha-junit-reporter": "^1.15.0",
-      "should": "^13.1.3",
-      "supertest": "^3.0.0"
-    }
+  "name": "app-dojo",
+  "version": "1.0.0",
+  "description": "Dojo Sample Mocha Test Server",
+  "scripts": {
+    "start": "node app.js",
+    "mocha": "mocha --reporter spec test.js",
+    "test": "mocha test.js --reporter mocha-junit-reporter --reporter-options mochaFile=test-reports.xml --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gdimas-cit/dojoscm-1.git"
+  },
+  "author": "Guilherme Dimas da Rosa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gdimas-cit/dojoscm-1/issues"
+  },
+  "homepage": "https://github.com/gdimas-cit/dojoscm-1",
+  "dependencies": {
+    "express": "^4.13.3",
+    "mocha": "^4.0.1",
+    "mocha-junit-reporter": "^1.15.0",
+    "should": "^13.1.3",
+    "supertest": "^3.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.17.2"
   }
+}
