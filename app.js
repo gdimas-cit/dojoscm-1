@@ -1,6 +1,5 @@
-'use strict';
-
 const express = require('express');
+
 const app = express();
 
 // Server connection
@@ -11,8 +10,8 @@ const HOST = '0.0.0.0';
 const os = ['Windows', 'macOS', 'Linux'];
 
 // Web Server
-app.get('/', function (req, res) {
-    res.json(os);
+app.get('/', (req, res) => {
+  res.json(os);
 });
 
 // Console output
@@ -21,4 +20,4 @@ app.listen(PORT, HOST);
 // Export module
 module.exports = app;
 
-console.log(`Running on http://${HOST}:${PORT}`);
+// console.log(`Running on http://${HOST}:${PORT}`);
